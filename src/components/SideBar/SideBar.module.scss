@@ -1,8 +1,10 @@
 $width: 30vw;
 $min-width: 350px;
+$max-width: 500px;
 $z-index: 9;
 $triangle-size: 8px;
 $toggler-left: max(#{$width}, #{$min-width});
+$toggler-left: min(#{$width}, #{$max-width});
 
 .toggler_container {
 	width: 24px;
@@ -40,7 +42,7 @@ $toggler-left: max(#{$width}, #{$min-width});
 .container {
 	width: $width;
 	min-width: $min-width;
-	max-width: 500px;
+	max-width: $max-width;
 	background-color: #fff;
 	position: absolute;
 	left: 0px;
