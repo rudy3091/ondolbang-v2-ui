@@ -22,15 +22,14 @@ export const SearchResultIndicator: React.FC<SearchResultIndicatorProps> = (
 
 	React.useEffect(() => {
 		const elem = rotateRef.current;
-		let tick: any;
 		if (elem !== undefined && elem !== null) {
-			tick = setInterval(() => {
+			let tick = setInterval(() => {
 				elem.scrollTop = idx === 0 ? 0 : elem.scrollTop + 20;
 				setIdx((idx + 1) % searchFilters.length);
 			}, 1500);
-		}
 
-		return () => clearInterval(tick);
+			return () => clearInterval(tick);
+		}
 	});
 
 	return (
