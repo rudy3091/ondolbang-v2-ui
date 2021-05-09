@@ -1,12 +1,28 @@
 .container {
-	// border: 1px solid black;
-	background-color: #f8f8f8;
-	border-radius: 10px;
+	border-radius: 100px;
 	padding: 12px 15px;
 	display: flex;
 	align-items: center;
 	position: absolute;
 	right: 40px;
+	transition: background-color 0.3s ease;
+
+	&:hover {
+		background-color: #efefef;
+	}
+
+	.input_container {
+		transition: width 0.2s ease;
+		width: 300px;
+
+		&.hidden {
+			width: 0px;
+
+			& .input {
+				display: none;
+			}
+		}
+	}
 
 	.input {
 		border: none;
