@@ -5,13 +5,14 @@ type IconHolderProps = {
 	iconPath: string;
 	width: string;
 	height?: string;
+	onClick?: React.MouseEventHandler;
 };
 
 export const IconHolder: React.FC<IconHolderProps> = (
 	props: IconHolderProps
 ) => {
 	return (
-		<div className={$.container}>
+		<div className={$.container} onClick={props.onClick}>
 			<img
 				className={$.icon}
 				src={props.iconPath}
