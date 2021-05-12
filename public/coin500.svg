@@ -1,0 +1,25 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="500px"
+   height="500px"
+   viewBox="0 0 500 500"
+   version="1.1"
+   >
+  <g>
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:45;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1463"
+       cx="250"
+       cy="250"
+       r="225" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:200px;line-height:1.25;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:45;stroke-miterlimit:4;stroke-dasharray:none"
+       x="65.673103"
+       y="321.77441"
+       id="text1467"><tspan
+         id="tspan1487"
+         x="65.673103"
+         y="321.77441">500</tspan></text>
+  </g>
+</svg>

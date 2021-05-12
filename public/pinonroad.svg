@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SVGRoot" width="500px" height="500px" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path d="m250 31c-72 0-131 59-131 131 0 36 17 65 39 93l93 117 93-117c21-26 39-57 39-93 0-72-59-131-131-131zm0 87c25 0 44 19 44 44s-19 44-44 44-44-19-44-44 19-44 44-44z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;image-rendering:auto;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;shape-rendering:auto;solid-color:#000000;stop-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+ <path d="m158 352 77 54 200-50 23 10-225 61-100-75"/>
+ <path d="m83 352h-25l85 73-98 21 25 14 113-27z"/>
+ <path d="m106 353h11l17 13-9.5 0.79z"/>
+ <path d="m146 384h11l17 13-9.5 0.79z"/>
+ <path d="m186 416h11l17 13-9.5 0.79z"/>
+ <path d="m478 379 12 7.4-384 97-14-7.4z"/>
+</svg>
