@@ -2,6 +2,7 @@ import * as React from "react";
 import $ from "./SearchBar.module.scss";
 
 import { IconHolder } from "@components/IconHolder/IconHolder";
+import { SearchFilters } from "./SearchFilters/SearchFilters";
 
 type SearchBarProps = {};
 
@@ -26,6 +27,8 @@ export const SearchBar: React.FC<SearchBarProps> = (props: SearchBarProps) => {
 			<div className={className}>
 				<input className={$.input} type="text" />
 			</div>
+
+			<SearchFilters isHidden={isHidden}></SearchFilters>
 		</div>
 	);
 };
