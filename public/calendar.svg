@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SVGRoot" width="500px" height="500px" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path d="m125 36v76" style="fill:none;stroke-linecap:round;stroke-width:45;stroke:#000"/>
+ <path d="m375 112v-76" style="fill:none;stroke-linecap:round;stroke-width:45;stroke:#000"/>
+ <rect x="50" y="82" width="400" height="375" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:45;stroke:#000"/>
+ <path d="m50 182h400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:45;stroke:#000"/>
+ <path d="m125 261h125" style="fill:none;stroke-linecap:square;stroke-linejoin:round;stroke-width:45;stroke:#000"/>
+ <path d="m125 336h250" style="fill:none;stroke-linecap:square;stroke-linejoin:round;stroke-width:25;stroke:#000"/>
+ <path d="m125 386h250" style="fill:none;stroke-linecap:square;stroke-linejoin:round;stroke-width:25;stroke:#000"/>
+ <path d="m364 261h-25" style="fill:none;stroke-linecap:square;stroke-linejoin:round;stroke-width:45;stroke:#000"/>
+</svg>
