@@ -22,14 +22,21 @@ export const SearchBar: React.FC<SearchBarProps> = (props: SearchBarProps) => {
 				iconPath="/search.svg"
 				width="30px"
 				height="30px"
-				onClick={() => setHidden(!isHidden)}
+				onClick={() => {
+					if (!isFilterHidden) setFilterHidden(true);
+					setHidden(!isHidden)
+				}}
 			></IconHolder>
 
 			<div
 				onClick={() => setFilterHidden(!isFilterHidden)}
 				className={className}
 			>
-				<input className={$.input} type="text" />
+				<input
+					className={$.input}
+					type="text"
+					placeholder={isHidden ? "" : "필터를 선택하세요"}
+				/>
 			</div>
 
 			<SearchFilters isHidden={isFilterHidden}></SearchFilters>
