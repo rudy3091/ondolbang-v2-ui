@@ -8,6 +8,7 @@ type SearchBarProps = {};
 
 export const SearchBar: React.FC<SearchBarProps> = (props: SearchBarProps) => {
 	const [isHidden, setHidden] = React.useState<boolean>(true);
+	const [isFilterHidden, setFilterHidden] = React.useState<boolean>(true);
 	const className = isHidden
 		? [$.input_container, $.hidden].join(" ")
 		: $.input_container;
@@ -24,11 +25,14 @@ export const SearchBar: React.FC<SearchBarProps> = (props: SearchBarProps) => {
 				onClick={() => setHidden(!isHidden)}
 			></IconHolder>
 
-			<div className={className}>
+			<div
+				onClick={() => setFilterHidden(!isFilterHidden)}
+				className={className}
+			>
 				<input className={$.input} type="text" />
 			</div>
 
-			<SearchFilters isHidden={isHidden}></SearchFilters>
+			<SearchFilters isHidden={isFilterHidden}></SearchFilters>
 		</div>
 	);
 };
